@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  NAV BAR */
+
+header {
+  background-color: #1f2937;
+  padding: 0 250px 10px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Roboto, "Times New Roman";
+}
+
+h1 {
+  font-size: 48px;
+  color: f9faf8;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.button {
+  color: white;
+  cursor: pointer;
+  background-color: #3a81f8;
+  padding: 8px 24px;
+  border-width: 0px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.navbar {
+  background-color: #1f2937;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .container .logo {
+  color: white;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+
+.menu-items a:hover {
+  color: green;
+}
+
+/*  HEADER SECTION */
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+  margin-bottom: 86px;
+  color: white;
+  background-color: #1f2937;
+}
+
+.info-box {
+  width: 350px;
+  align-self: center;
+  justify-self: center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 250;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* RANDOM INFO SECTION */
+
+.section-h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 46px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 86px;
+  gap: 25px;
+}
+
+.boxes .box {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgba(0, 0, 255, 0.68);
+  padding: 50px;
+  margin: 20px;
+  border-radius: 8%;
+}
+
+.boxes p {
+  max-width: 150px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+/* QUOTE SCETION */
+
+.quote {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 86px;
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  margin: 86px 0;
+}
+
+.quote-p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.thor {
+  align-self: flex-end;
+}
+
+/* CALL TO ACTION */
+
+.call-action {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 86px 250px;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.call-action button {
+  color: white;
+  border-color: white;
+  cursor: pointer;
+  background-color: #3a81f8;
+  font-size: 16px;
+  padding: 8px 24px;
+  border-width: 1px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.call-action-text {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  background-color: #1f2937;
+  color: white;
+}
